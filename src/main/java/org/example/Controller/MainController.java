@@ -1,6 +1,6 @@
 package org.example.Controller;
 
-import org.example.CadastroRepositorio;
+import org.example.CadastroReposity;
 import org.example.Model.Cadastro;
 
 import org.example.QueryInterface;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 public class MainController {
 
     @Autowired
-    private CadastroRepositorio cadastroRepositorio;
+    private CadastroReposity cadastroRepositorio;
 
     @Autowired
     private QueryInterface queryInterface;
